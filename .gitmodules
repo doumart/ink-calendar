@@ -1,0 +1,3 @@
+[submodule "lazy-webpack"]
+	path = lazy-webpack
+	url = https://github.com/doumart/lazy-webpack.git

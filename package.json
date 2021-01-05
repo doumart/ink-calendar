@@ -1,0 +1,45 @@
+{
+  "name": "ink-calendar",
+  "version": "0.0.0",
+  "license": "MIT",
+  "scripts": {
+    "start": "webpack serve --mode=development",
+    "build": "lazy-webpack",
+    "tsc": "tsc"
+  },
+  "dependencies": {
+    "calendar-base": "^1.1.1",
+    "history": "^5.0.0",
+    "lazy-webpack": "^2.0.2",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-helmet": "^6.1.0",
+    "react-i18next": "^11.11.0",
+    "react-router": "^5.2.0",
+    "react-router-dom": "^5.2.0",
+    "rrule": "^2.6.8"
+  },
+  "devDependencies": {
+    "@types/react": "^17.0.11",
+    "@types/react-dom": "^17.0.8",
+    "@types/react-router": "^5.1.15",
+    "@typescript-eslint/parser": "^4.27.0",
+    "cross-env": "^7.0.3",
+    "css-loader": "^5.2.6",
+    "esbuild-loader": "^2.13.1",
+    "eslint": "^7.29.0",
+    "eslint-loader": "^4.0.2",
+    "eslint-plugin-i18next": "^5.1.1",
+    "eslint-plugin-react": "^7.24.0",
+    "eslint-plugin-react-hooks": "^4.2.0",
+    "html-webpack-plugin": "^5.3.1",
+    "open-browser-webpack-plugin": "0.0.5",
+    "postcss-loader": "^6.1.0",
+    "source-map-loader": "^3.0.0",
+    "style-loader": "^2.0.0",
+    "typescript": "^4.3.4",
+    "webpack": "^5.39.1",
+    "webpack-cli": "^4.7.2",
+    "webpack-dev-server": "^3.11.2"
+  }
+}
